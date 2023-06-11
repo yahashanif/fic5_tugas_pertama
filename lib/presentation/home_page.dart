@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                                               .showSnackBar(
                                             SnackBar(
                                                 content: Text(
-                                                    'Add Product ${state.message}')),
+                                                    'Update Product ${state.message}')),
                                           );
                                         }
                                       },
@@ -194,7 +194,7 @@ class _HomePageState extends State<HomePage> {
                                                   .add(DoUpdateProductEvent(
                                                       model: model));
                                             },
-                                            child: const Text('Add'));
+                                            child: const Text('Update'));
                                       },
                                     ),
                                   ],
